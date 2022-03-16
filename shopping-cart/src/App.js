@@ -1,11 +1,13 @@
 import Header from "./Header";
-import "./style.css"
+import BodyComponent from "./BodyComponent";
+import "./style.css";
+import FooterComponent from "./FooterComponent";
 function App() {
   return (
     <div className="App">
       <Header />
-      {/* <itemBody />
-      <Footer/> */}
+      <BodyComponent />
+      <FooterComponent/>
     </div>
   );
 }
