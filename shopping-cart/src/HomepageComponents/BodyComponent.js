@@ -1,11 +1,11 @@
 import React from 'react';
-import Dino from './img/dino.jpg';
-import Duck from './img/duck.jpg';
-import Gameboy from './img/gameboy.jpg';
-import Owl from './img/owl.jpg';
-import Sheep from './img/sheep.jpg';
-import Walle from './img/walle.jpg';
-import "./style.css"
+import Dino from '../img/dino.jpg';
+import Duck from '../img/duck.jpg';
+import Gameboy from '../img/gameboy.jpg';
+import Owl from '../img/owl.jpg';
+import Sheep from '../img/sheep.jpg';
+import Walle from '../img/walle.jpg';
+import "../style.css"
 
 export default function BodyComponent() {
   return (
