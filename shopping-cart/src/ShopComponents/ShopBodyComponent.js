@@ -7,6 +7,7 @@ import Plush from '../img/plush.jpg';
 import Puzzle from '../img/puzzle.jpg';
 import Rc from '../img/rc.jpg';
 import Couple from '../img/couple.jpg';
+import addToCart from '../GlobalComponents/addToCart';
 
 export default function ShopBodyComponent() {
   return (
@@ -30,32 +31,38 @@ export default function ShopBodyComponent() {
           <li><a href="#puzzle">Puzzle</a></li>
           <li>Wooden - (out of Stock)</li>
         </ul>
-        <p className='welcome-message'>Thank you for visiting our Webshop. For further inquiries call 821-934-9829</p>
+        <p className='welcome-message'>Thank you for visiting our Webshop. We hope you enjoy your time browsing our inventory, we are expanding it every day. For further inquiries call 821-934-9829.</p>
         <img src={Couple} alt="couple" id="couple"/>
       </div>
       <div className='shop-card-container'>
         <div className='shop-card'>
           <h4>Goku Action Figure</h4>
+        <button className='showButton' onClick={addToCart}>Add to Cart</button>
           <img src={Dbz} alt="Goku toy" id="actionFigure"/>
         </div>
         <div className='shop-card'>
           <h4>Electronic Toy</h4>
+        <button className='showButton' onClick={addToCart}>Add to Cart</button>
           <img src={ElectronicToy} alt="Electronic Toy" id="electronics"/>
         </div>
         <div className='shop-card'>
           <h4>Doll</h4>
+        <button className='showButton' onClick={addToCart}>Add to Cart</button>
           <img src={Doll} alt="Doll" id="doll"/>
         </div>
         <div className='shop-card'>
           <h4>Plush Toy</h4>
+        <button className='showButton' onClick={addToCart}>Add to Cart</button>
           <img src={Plush} alt="Plush" id="plushie"/>
         </div>
         <div className='shop-card'>
           <h4>Puzzle</h4>
+        <button className='showButton' onClick={addToCart}>Add to Cart</button>
           <img src={Puzzle} alt="Puzzle" id="puzzle"/>
         </div>
         <div className='shop-card'>
           <h4>RC Car</h4>
+        <button className='showButton' onClick={addToCart}>Add to Cart</button>
           <img src={Rc} alt="RC" id="rc" />
         </div>
       </div>

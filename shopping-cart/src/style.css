@@ -21,6 +21,8 @@ body {
   gap: 8px;
 }
 .card {
+  position: relative;
+  z-index: 300;
   width: 90%;
   margin: 0 auto;
   align-items: center;
@@ -43,6 +45,7 @@ img {
   transform: scale(1.1);
   background-color: #92dce5;
   max-width: 550px;
+  z-index: 2;
 }
 li:hover {
   color: #92dce5;
@@ -160,4 +163,12 @@ a:hover {
 .welcome-message {
   text-align: right;
   margin-right: 10%;
+}
+.showButton {
+  position: relative;
+  border: none;
+  border: solid black 1px;
+  background-color: #92dce5;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
 }
