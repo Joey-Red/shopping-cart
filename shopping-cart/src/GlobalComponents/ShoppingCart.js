@@ -1,12 +1,12 @@
-import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
-import addToCart from './addToCart';
 
-export default function ShoppingCart() {
+
+export default function ShoppingCart(props) {
+  const { cartItems, onAdd } = props;
   return (
     <div className='cart-container'>
-      <p>{addToCart}</p>
+      <div id="cart">{cartItems.length}</div>
       <div className='faCart'>
         <FontAwesomeIcon icon={faCartShopping} />
       </div> 

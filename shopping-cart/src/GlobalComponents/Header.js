@@ -1,13 +1,12 @@
 import React from 'react';
 import Nav from './Nav';
-import ShoppingCart from './ShoppingCart';
 
-export default function Header() {
+export default function Header(props) {
+  const { cartItems, onAdd } = props;
   return (
     <div className="header">
       <Nav/>
       <h1>Toys N' Trinkets Webshop</h1>
-      <ShoppingCart/>
     </div>
   )
 }
