@@ -8,7 +8,9 @@ export default function BodyComponent(props) {
   return (
     <div className='test-class'>
     {homeProducts.map((homeProduct) => (
+      <div className='ind-card'>
         <HomeProduct key={homeProduct.id} homeProduct={homeProduct} onAdd={onAdd} />
+        </div>
       ))}
     </div>
   )

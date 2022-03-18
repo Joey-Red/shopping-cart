@@ -14,7 +14,6 @@ const RouteSwitch = () => {
   const [cartItems, setCartItems] = useState([]);
 
   const onAdd = (product) => {
-    console.log(cartItems)
       const exist = cartItems.find(x => x.id === product.id);
       if(exist){
         setCartItems(cartItems.map(x => x.id === product.id ? {...exist, qty: exist.qty +1 } : x)
@@ -25,9 +24,11 @@ const RouteSwitch = () => {
     }
   return (
     <BrowserRouter>
-      <Header />
-      <div className="shopping-cart-icon">
+      <div className="header-container">
+        <Header />
+        <div className="shopping-cart-icon">
         <ShoppingCart onAdd={onAdd} cartItems={cartItems} products={products} homeProducts={homeProducts}/>
+        </div>
       </div>
       <Routes>
         <Route path="/" element={<BodyComponent products={products} homeProducts={homeProducts} onAdd={onAdd}/>} />

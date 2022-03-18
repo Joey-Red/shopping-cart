@@ -14,7 +14,7 @@ export default function Nav() {
   }
   }
   return (
-    <>
+    <div className='nav-container'>
       <div className='faBars'>
         <FontAwesomeIcon icon={faBars} onClick={displayNav}/>
       </div>
@@ -22,11 +22,11 @@ export default function Nav() {
           <ul className='nav-list'>
             <Link to="/"><li>Home</li></Link>
             <Link to="/shop"><li>Shop</li></Link>
-            <Link to="/checkout"><li>Checkout</li></Link>
+            <Link to="/checkout"><li>Cart</li></Link>
             <li>FAQ</li>
             <li>Policy</li>
           </ul>
       </div>
-    </>
+    </div>
   )
 }
