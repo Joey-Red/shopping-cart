@@ -9,10 +9,13 @@ body {
 .header {
   box-shadow: 0px 0px 20px 0px;
   display: flex;
-  justify-content: space-around;
   align-items: center;
   background-color: #2b303a;
   color: white;
+}
+h1 {
+  margin-left: 60%;
+  width: 100%;
 }
 .body-component {
   display: grid;
@@ -80,7 +83,9 @@ li {
   cursor: pointer;
 }
 .cart-container {
-  position: relative;
+  position: absolute;
+  right: 80px;
+  top: -10px;
   color: #92dce5;
 }
 #cart {
@@ -96,6 +101,7 @@ li {
 }
 .faBars {
   font-size: 1.7rem;
+  margin-left: 10%;
 }
 .faCart:hover,
 .faBars:hover {
@@ -117,27 +123,13 @@ li {
   list-style: none;
   list-style-position: outside;
 }
-.searchBar {
-  height: 30px;
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-}
-.searchBar input {
-  width: 30%;
-  border: solid black 1px;
-}
-.searchBar button {
-  border: solid black 1px;
-  border-left: none;
-  height: 100%;
-}
+
 a:visited {
-  color: black;
+  color: white;
 }
 a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 a:hover {
   color: #92dce5;
@@ -185,9 +177,59 @@ a:hover {
   width: 80%;
 }
 .home-card-container {
-  display: grid;
-  grid-template-columns: repeat (12, 1fr);
+  text-align: center;
+  margin: 3%;
 }
-.grid-item {
+
+.test-class {
   display: grid;
+  gap: 2%;
+  grid-template-columns: repeat(3, 1fr);
+}
+.checkout-cart {
+  background-color: #2b303a;
+  display: grid;
+  height: 100vh;
+  text-align: center;
+}
+
+.checkout-item-list {
+  background-color: #eee5e9;
+  width: 20%;
+  padding: 40px;
+  margin: auto;
+  list-style: none;
+  border: solid black 2px;
+  border-radius: 12px;
+}
+.checkout-total {
+  background-color: #eee5e9;
+  margin: auto;
+  padding: 40px;
+  width: 20%;
+  border: solid black 2px;
+  border-radius: 12px;
+}
+.checkout-header {
+  background-color: #2b303a;
+  color: white;
+  border: solid black 2px;
+  border-radius: 12px;
+}
+.price-value {
+  border: solid black 2px;
+  border-top: none;
+  border-radius: 12px;
+  background-color: #92dce5;
+}
+.name-value {
+  border: solid black 2px;
+  border-bottom: none;
+  border-radius: 12px;
+  background-color: #92dce5;
+}
+.total-price-value {
+  background-color: #92dce5;
+  border: solid black 2px;
+  border-radius: 12px;
 }

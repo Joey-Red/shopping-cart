@@ -1,7 +1,8 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
-import '../style.css'
+import '../style.css';
+import { Link } from 'react-router-dom';
 
 export default function Nav() {
   let displayNav = () => {
@@ -19,9 +20,9 @@ export default function Nav() {
       </div>
       <div className='nav-link-list'>
           <ul className='nav-list'>
-            <li>Home</li>
-            <li>Shop</li>
-            <li>About</li>
+            <Link to="/"><li>Home</li></Link>
+            <Link to="/shop"><li>Shop</li></Link>
+            <Link to="/checkout"><li>Checkout</li></Link>
             <li>FAQ</li>
             <li>Policy</li>
           </ul>

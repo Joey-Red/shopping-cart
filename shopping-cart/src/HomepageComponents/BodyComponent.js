@@ -6,10 +6,10 @@ export default function BodyComponent(props) {
   const { homeProducts, onAdd } = props;
 
   return (
-    <>
+    <div className='test-class'>
     {homeProducts.map((homeProduct) => (
         <HomeProduct key={homeProduct.id} homeProduct={homeProduct} onAdd={onAdd} />
       ))}
-    </>
+    </div>
   )
 }
