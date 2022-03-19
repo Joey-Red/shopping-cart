@@ -31,7 +31,7 @@ const RouteSwitch = () => {
         </div>
       </div>
       <Routes>
-        <Route path="/" element={<BodyComponent products={products} homeProducts={homeProducts} onAdd={onAdd}/>} />
+        <Route path="/home" element={<BodyComponent products={products} homeProducts={homeProducts} onAdd={onAdd}/>} />
         
         <Route path="/shop"  element={<ShopBodyComponent products={products} homeProducts={homeProducts} onAdd={onAdd} />} />
         <Route path="/checkout" element={<CheckoutComponent products={products} homeProducts={homeProducts} cartItems={cartItems}/>} />
