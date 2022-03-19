@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/shopping-cart/static/css/main.aa989c15.css",
+    "main.js": "/shopping-cart/static/js/main.fccdf56f.js",
+    "static/media/puzzle.jpg": "/shopping-cart/static/media/puzzle.a263f2ebd93c4644c5c9.jpg",
+    "static/media/doll.jpg": "/shopping-cart/static/media/doll.9aed5b617c20db5ef6ac.jpg",
+    "static/media/dbz.jpg": "/shopping-cart/static/media/dbz.9c94e192a22e0df17c1e.jpg",
+    "static/media/rc.jpg": "/shopping-cart/static/media/rc.e9959afa6101e566f63d.jpg",
+    "static/media/walle.jpg": "/shopping-cart/static/media/walle.c9adf18eed2904a361d3.jpg",
+    "static/media/plush.jpg": "/shopping-cart/static/media/plush.1a528e1b3ccf4cd1cf21.jpg",
+    "static/media/electronictoy.jpg": "/shopping-cart/static/media/electronictoy.63e1d973ae76362001e4.jpg",
+    "static/media/owl.jpg": "/shopping-cart/static/media/owl.f562364204baaa52c56d.jpg",
+    "static/media/gameboy.jpg": "/shopping-cart/static/media/gameboy.ae98968bd22e1e07df22.jpg",
+    "static/media/dino.jpg": "/shopping-cart/static/media/dino.6da7c697515e3001d9df.jpg",
+    "static/media/sheep.jpg": "/shopping-cart/static/media/sheep.3d381f6197b6c78bddb5.jpg",
+    "static/media/duck.jpg": "/shopping-cart/static/media/duck.4f5416336fa7684b5c52.jpg",
+    "index.html": "/shopping-cart/index.html",
+    "main.aa989c15.css.map": "/shopping-cart/static/css/main.aa989c15.css.map",
+    "main.fccdf56f.js.map": "/shopping-cart/static/js/main.fccdf56f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa989c15.css",
+    "static/js/main.fccdf56f.js"
+  ]
+}
