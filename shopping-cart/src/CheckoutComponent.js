@@ -17,6 +17,7 @@ function CheckoutComponent(props) {
       <div className="checkout-total">
         <p className='checkout-header'>Checkout Total:</p>
         <p className='total-price-value'>${totalPrice}</p>
+        <button className='submit-button'>Submit Order</button>
       </div>
       </div>
       </div>
